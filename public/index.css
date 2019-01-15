@@ -1,0 +1,78 @@
+html, body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+	background-color: White;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: black; /* TEST */
+}
+#bar{
+	margin-top:1%;
+}
+#booker{
+	margin-top : 6%;
+	
+}
+#compute {
+    background-color:  #3AA5C1; /* TEST */
+    margin-top : 15%;
+    color: white; /* TEST */
+}
+
+input[type=text]{
+	background-color:transparent;
+	border : none;
+	border-bottom: 1px solid #0094B6;
+}
+input.pleft{
+	background-color:transparent;
+	border : none;
+	border-bottom: 1px solid #E3024A;
+    
+}
+input.pright{
+	background-color:transparent;
+	border : none;
+	border-bottom: 1px solid #EE7F07;
+    
+}
+
+.firstBlock {
+    /*border-image: linear-gradient(#0094B6, #E3024A, #EE7F07) 10;*/ /*ORIGINAL*/
+    background: linear-gradient(to top right, #3AA5C1, #EA406E, #F39534); /* TEST */
+    padding: 7% 10%;
+    /*background-color: #E8E5E3;*/
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+    color: white; /* TEST */
+}
+
+.js-option{
+	margin-top : 10%;
+	font-family: 'Open Sans', sans-serif;
+	position : absolute;
+	left: 35%;
+	width: 200px;
+    color: black; /* TEST */	
+}
+.side-label{
+	margin-top : 9.5%;
+	font-family: 'Open Sans', sans-serif;
+	position : absolute;
+	left: 47%;
+	width: 200px;
+    color: black; /* TEST */	
+}
+#actors{
+	margin-top : 10 %;
+	padding: 7% 10%;
+	font-family: 'Open Sans', sans-serif;
+	color: black; /* TEST */	
+}
+
+

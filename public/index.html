@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" href="index.css" />
     <title>CSS/HTML Workshop with Privateaser</title>
   </head>
   <body>
+	<div class="firstBlock">
+		<h1>TD2 : CSS/HTML Workshop with Privateaser</h1>
+	</div>
     <div id="bar">
       <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+      <input class="js-price-by-hour pleft" type="number" placeholder="Price by hour"/>
+      <input class="js-price-by-person pright" type="number" placeholder="Price by person"/>
     </div>
     <div id="booker">
       <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+      <input class="js-time pleft" type="number" placeholder="Time in h"/>
+      <input class="js-persons pright" type="number" placeholder="Persons"/>
+      <input class="js-option" id="acocher" type="checkbox" placeholder="Deductible option"/><label for="acocher" class="side-label">Deductible option</label>
+	  <class="js-option Deductible option/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
